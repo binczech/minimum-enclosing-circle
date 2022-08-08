@@ -1,0 +1,1 @@
+export const MULTIPLICATIVE_EPSILON = 1 + 1e-14;

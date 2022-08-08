@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.siteTitle {
+    h3 {
+        color: white !important;
+        margin: 17px 0;
+    }
+}
+
+@media screen and (max-width: $screen-md) {
+    .siteTitle {
+        h3 {
+            margin: 24px 0;
+            font-size: 12px !important;
+        }
+    }
+}

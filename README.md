@@ -1,46 +1,16 @@
-# Getting Started with Create React App
+# Author comment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have spent around 8 hours to finish this task. I used variant of Weltz's algorithm with radomization which run in expected Θ(n) (linear) time. I based my implementation on implementation from [Project Nayuki](https://www.nayuki.io/page/smallest-enclosing-circle). I aimed on code structuring, responsivity and code test coverage (unit and e2e tests). Implementation could be improved by allowing user to interactively move and choose points.
 
-## Available Scripts
+# Smallest circle problem
+## The task
+Create an app with the latest React. The app should have an text input and a button. The button will be disabled when text input is empty. Clicking on the button will show a window with result of Smallest circle problem for inputed number of points in input (style it as a dialog/modal window), clicking outside of the window will close this window.
 
-In the project directory, you can run:
+## How to run test
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* `npm test` - unit tests
+* `npm run lint` - ESLint tests
+* `npm run type-check` - TypeScript tests
+* `npm run fulltest` - all tests above
+* `npm run e2e-open` - e2e tests in browser
+* `npm run e2e-run` - e2e tests in CLI
